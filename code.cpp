@@ -19,7 +19,7 @@
       GetInt(s_it, s_end, count);
     }
     else if (line.find("SUBJECTS_OPEN") != string::npos)
-    {
+    {//good
       GetPaths(source, subj_open);
     }
     else if (line.find("SUBJECTS") != string::npos)

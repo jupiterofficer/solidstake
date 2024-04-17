@@ -11,7 +11,7 @@
       string::const_iterator s_it, s_end = line.cend();
       s_it = (line.cbegin() + 10);
       GetInt(s_it, s_end, area);
-    }
+    }//yes
     else if (line.find("SOL_COUNT") != string::npos)
     {
       string::const_iterator s_it, s_end = line.cend();
